@@ -1,0 +1,21 @@
+{
+  "name": "grayford",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "start": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "botid": "^1.5.12"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
+
